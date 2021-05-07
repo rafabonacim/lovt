@@ -169,23 +169,14 @@ main section.styles .container article .namestyle{
 
 }
 
-footer section.infos .container {
+footer section.infos .container{
     display:flex;
     align-items: center;
     padding: 49px 45px 120px 477px;
     background-color:#333333;
-    justify-content: space-between;
-       
+    justify-content: space-between; 
 }
 
-footer section.infos .container {
-    display:flex;
-    align-items: center;
-    padding: 49px 45px 120px 0px;
-    background-color:#333333;
-    justify-content:space-between;
-       
-}
 footer section.infos .container .contact{
     width: 175px;
     height: 95px;
