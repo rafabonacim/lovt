@@ -11,7 +11,7 @@ body{
 }
 
 .container{
-    width: 1000px;
+    width: 1200px;
     max-width: 100%;
     margin: 0 auto;
 }
@@ -118,7 +118,8 @@ main section.projects .container article .info .tag{
     background-color: grey;
     color: #fff;
     margin:0;
-    border-radius:  10px;
+    border-radius:  25px;
+    font-size: 25px;
 
 }
 main section.projects .container article .info .tag-new{
@@ -169,12 +170,50 @@ main section.styles .container article .namestyle{
 
 }
 
+section.contato h2{
+    text-align:center;
+    font-size: 40px;
+}
+
+section.contato form{
+    width: 500px;
+    max-width: 100%;
+    margin: 40px auto;
+}
+
+section.contato form input,
+section.contato form textarea{
+    width: 100%;
+    padding: 5px;
+    resize: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+
+}
+section.contato form button{
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    background-color: #DC9730;
+    color:#fff;
+    border:none;
+    text-transform: uppercase;
+    border-radius: 20px;
+    font-family: 'Ropa Sans', sans-serif;
+    cursor: pointer;
+}
+section.contato form button:hover{
+    background-color: #51d275;
+
+}
+
 footer {
     background-color: #333333; 
     color: #FFFFFF;
     padding: 50px;
     display: flex;
     justify-content: space-around;
+
 }
 
 footer a:any-link{
@@ -186,6 +225,17 @@ footer iframe {
     height: 350px;
     max-width: 100%;
 }
+
+footer .informacoes .instagram{
+    Text-decoration: none;
+}
+footer .informacoes .facebook{
+    Text-decoration: none;
+}
+footer .informacoes .whatsapp{
+    Text-decoration: none;
+}
+
 
 @media (max-width: 900px) {
     .container {
