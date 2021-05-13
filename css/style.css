@@ -186,6 +186,9 @@ form{
     max-width: 100%;
     margin: 40px auto;
 }
+.main-form{
+    text-align: center;
+}
 
 form input:not([type='radio']):not([type='checkbox']),
 form textarea,
