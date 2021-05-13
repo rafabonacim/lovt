@@ -186,9 +186,7 @@ form{
     max-width: 100%;
     margin: 40px auto;
 }
-.main-form{
-    text-align: center;
-}
+
 
 form input:not([type='radio']):not([type='checkbox']),
 form textarea,
@@ -252,6 +250,7 @@ footer .informacoes .whatsapp{
 
 .main-form{
     padding:100px 0;
+    text-align: center;
 }
 
 .btn-primary {
